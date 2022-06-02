@@ -11,8 +11,21 @@
 		560C5DD0282C0A9400EADAB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DCF282C0A9400EADAB1 /* SceneDelegate.swift */; };
 		560C5DD2282C0A9400EADAB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DD1282C0A9400EADAB1 /* ViewController.swift */; };
 		560C5DD5282C0A9400EADAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560C5DD3282C0A9400EADAB1 /* Main.storyboard */; };
-		560C5DD7282C0A9700EADAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560C5DD6282C0A9700EADAB1 /* Assets.xcassets */; };
 		560C5DDA282C0A9700EADAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560C5DD8282C0A9700EADAB1 /* LaunchScreen.storyboard */; };
+		560C5DE8282C0BAF00EADAB1 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DE7282C0BAF00EADAB1 /* MainTabController.swift */; };
+		560C5DEA282C0D6400EADAB1 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DE9282C0D6400EADAB1 /* FeedController.swift */; };
+		560C5DEC282C0D6B00EADAB1 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DEB282C0D6B00EADAB1 /* SearchController.swift */; };
+		560C5DEE282C0D7700EADAB1 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DED282C0D7700EADAB1 /* ImageSelectorController.swift */; };
+		560C5DF0282C0D7F00EADAB1 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DEF282C0D7F00EADAB1 /* NotificationsController.swift */; };
+		560C5DF2282C0D8800EADAB1 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C5DF1282C0D8800EADAB1 /* ProfileController.swift */; };
+		560C5DF4282C10D600EADAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560C5DF3282C10D600EADAB1 /* Assets.xcassets */; };
+		561020FD2848FCD10028E43C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561020FC2848FCD10028E43C /* AuthenticationViewModel.swift */; };
+		562A120F283D156F00EA552B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A120E283D156F00EA552B /* FeedCell.swift */; };
+		562A1211283D160D00EA552B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A1210283D160D00EA552B /* Extensions.swift */; };
+		562A1214283D171B00EA552B /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 562A1213283D171B00EA552B /* JGProgressHUD */; };
+		56A6759E2847A2100006C02A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A6759D2847A2100006C02A /* LoginController.swift */; };
+		56A675A02847A21D0006C02A /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A6759F2847A21D0006C02A /* RegistrationController.swift */; };
+		56A675A22847D9560006C02A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A675A12847D9560006C02A /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +34,21 @@
 		560C5DCF282C0A9400EADAB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		560C5DD1282C0A9400EADAB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		560C5DD4282C0A9400EADAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		560C5DD6282C0A9700EADAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560C5DD9282C0A9700EADAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560C5DDB282C0A9700EADAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560C5DE7282C0BAF00EADAB1 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		560C5DE9282C0D6400EADAB1 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		560C5DEB282C0D6B00EADAB1 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		560C5DED282C0D7700EADAB1 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		560C5DEF282C0D7F00EADAB1 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		560C5DF1282C0D8800EADAB1 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		560C5DF3282C10D600EADAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		561020FC2848FCD10028E43C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		562A120E283D156F00EA552B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		562A1210283D160D00EA552B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		56A6759D2847A2100006C02A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		56A6759F2847A21D0006C02A /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		56A675A12847D9560006C02A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562A1214283D171B00EA552B /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,83 @@
 		560C5DCC282C0A9400EADAB1 /* InstagramFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				560C5DE6282C0ABC00EADAB1 /* Model */,
+				560C5DE5282C0AB900EADAB1 /* View */,
+				560C5DE4282C0AB700EADAB1 /* ViewModel */,
+				560C5DE3282C0AB500EADAB1 /* Controller */,
+				560C5DE2282C0AB300EADAB1 /* API */,
+				560C5DE1282C0AA800EADAB1 /* Utils */,
 				560C5DCD282C0A9400EADAB1 /* AppDelegate.swift */,
 				560C5DCF282C0A9400EADAB1 /* SceneDelegate.swift */,
 				560C5DD1282C0A9400EADAB1 /* ViewController.swift */,
 				560C5DD3282C0A9400EADAB1 /* Main.storyboard */,
-				560C5DD6282C0A9700EADAB1 /* Assets.xcassets */,
 				560C5DD8282C0A9700EADAB1 /* LaunchScreen.storyboard */,
 				560C5DDB282C0A9700EADAB1 /* Info.plist */,
+				560C5DF3282C10D600EADAB1 /* Assets.xcassets */,
 			);
 			path = InstagramFirestore;
+			sourceTree = "<group>";
+		};
+		560C5DE1282C0AA800EADAB1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				562A1210283D160D00EA552B /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		560C5DE2282C0AB300EADAB1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		560C5DE3282C0AB500EADAB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56A6759C2847A2010006C02A /* Authentication */,
+				560C5DE7282C0BAF00EADAB1 /* MainTabController.swift */,
+				560C5DE9282C0D6400EADAB1 /* FeedController.swift */,
+				560C5DEB282C0D6B00EADAB1 /* SearchController.swift */,
+				560C5DED282C0D7700EADAB1 /* ImageSelectorController.swift */,
+				560C5DEF282C0D7F00EADAB1 /* NotificationsController.swift */,
+				560C5DF1282C0D8800EADAB1 /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		560C5DE4282C0AB700EADAB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				561020FC2848FCD10028E43C /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		560C5DE5282C0AB900EADAB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				562A120E283D156F00EA552B /* FeedCell.swift */,
+				56A675A12847D9560006C02A /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		560C5DE6282C0ABC00EADAB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56A6759C2847A2010006C02A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				56A6759D2847A2100006C02A /* LoginController.swift */,
+				56A6759F2847A21D0006C02A /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +177,9 @@
 			dependencies = (
 			);
 			name = InstagramFirestore;
+			packageProductDependencies = (
+				562A1213283D171B00EA552B /* JGProgressHUD */,
+			);
 			productName = InstagramFirestore;
 			productReference = 560C5DCA282C0A9400EADAB1 /* InstagramFirestore.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 560C5DC1282C0A9400EADAB1;
+			packageReferences = (
+				562A1212283D171B00EA552B /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = 560C5DCB282C0A9400EADAB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				560C5DDA282C0A9700EADAB1 /* LaunchScreen.storyboard in Resources */,
-				560C5DD7282C0A9700EADAB1 /* Assets.xcassets in Resources */,
+				560C5DF4282C10D600EADAB1 /* Assets.xcassets in Resources */,
 				560C5DD5282C0A9400EADAB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +238,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A675A22847D9560006C02A /* CustomTextField.swift in Sources */,
 				560C5DD2282C0A9400EADAB1 /* ViewController.swift in Sources */,
+				56A6759E2847A2100006C02A /* LoginController.swift in Sources */,
+				562A120F283D156F00EA552B /* FeedCell.swift in Sources */,
+				560C5DEE282C0D7700EADAB1 /* ImageSelectorController.swift in Sources */,
+				560C5DEC282C0D6B00EADAB1 /* SearchController.swift in Sources */,
+				561020FD2848FCD10028E43C /* AuthenticationViewModel.swift in Sources */,
 				560C5DCE282C0A9400EADAB1 /* AppDelegate.swift in Sources */,
+				560C5DE8282C0BAF00EADAB1 /* MainTabController.swift in Sources */,
+				560C5DF2282C0D8800EADAB1 /* ProfileController.swift in Sources */,
+				560C5DEA282C0D6400EADAB1 /* FeedController.swift in Sources */,
+				560C5DF0282C0D7F00EADAB1 /* NotificationsController.swift in Sources */,
+				562A1211283D160D00EA552B /* Extensions.swift in Sources */,
 				560C5DD0282C0A9400EADAB1 /* SceneDelegate.swift in Sources */,
+				56A675A02847A21D0006C02A /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		562A1212283D171B00EA552B /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		562A1213283D171B00EA552B /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 562A1212283D171B00EA552B /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 560C5DC2282C0A9400EADAB1 /* Project object */;
 }
